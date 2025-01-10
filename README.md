@@ -41,9 +41,9 @@ Application will be running at localhost:3000
 A background job is implemented to fetch cryptocurrency data for Bitcoin, Matic, and Ethereum every 2 hours. This data is stored in the database.
 
 - Task 2: /stats Endpoint
-    URL: localhost:3000/stats?coin=bitcoin
-    Method: GET
-    Sample Response:
+    * URL: localhost:3000/stats?coin=bitcoin
+    * Method: GET
+    * Sample Response:
     ``` json
     {
       "24HourChange": 2.49759,
@@ -54,10 +54,9 @@ A background job is implemented to fetch cryptocurrency data for Bitcoin, Matic,
     }
     ```
 - Task 3: /deviation Endpoint
-    URL: localhost:3000/deviation?coin=bitcoin
-    Method: GET
-    Sample Response:
-
+    * URL: localhost:3000/deviation?coin=bitcoin
+    * Method: GET
+    * Sample Response:
     ``` json
     {
         "coin": "bitcoin",
