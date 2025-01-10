@@ -65,4 +65,4 @@ A background job is implemented to fetch cryptocurrency data for Bitcoin, Matic,
         "mean_price": 94966,
         "total_records": 14
     }
-```
+    ```
